@@ -6,9 +6,10 @@ object addEven extends App{
 
     def isOdd(x:Int):Boolean = !(isEven(x))
 
-    def addEvenseq(x:Int):Int = x match{
-        case y if(x==2) => x;
-        case y if(isEven(x)) => x+addEvenseq(x-1);
+    def addEvenseq(x:Int):Int= x match{
+        case y if(x==0) => x
+        case y if(isEven(x)) => addEvenseq(x-1)+x
+        case _ => addEvenseq(x-1)
     }
     // println(isEven(5));
     // println(isEven(2));
