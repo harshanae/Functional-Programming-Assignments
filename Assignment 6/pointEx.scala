@@ -3,9 +3,9 @@ object pointEx extends App{
 
     //point intialization p1 and p2
     val p1=Point(4,5);
-    println(p1);
+    println("p1= "+p1);
     val p2=Point(3.2,5);
-    println(p2);
+    println("p2= "+p2);
     println();
     
     //Question 1: addition of two given points (p1 and p2)
