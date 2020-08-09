@@ -1,7 +1,7 @@
 object pointEx extends App{
     println("Assignment 6 Case Class\n");
 
-    //point intisalization p1 and p2
+    //point intialization p1 and p2
     val p1=Point(4,5);
     println(p1);
     val p2=Point(3.2,5);
